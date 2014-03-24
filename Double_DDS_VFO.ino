@@ -55,7 +55,7 @@ The system implements BFO settings for lower and upper sideband
 The BFO is changed when the band changes (if required)
 */
 double BFOs[]={
-  9999550, 9997400};  // was 9996800
+  9999550, 9997400};  // YOU WILL NEED TO EDIT THESE CONSTANTS TO SUIT YOUR IF SYSTEM
  
  
 /*======================================================================
