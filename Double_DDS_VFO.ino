@@ -85,8 +85,8 @@ const int modeSw3 = 5;
 // Display...
 // the display uses the I2C connection, 
 // which uses 
-// A4 for the Clock and
-// A5 for the Data
+// A4 for the Data and 
+// A5 for the Clock (thanks Malcolm !)
 //======================================
 // SOFTWARE: defining other constants...
 const int nMenus = 0x03;
