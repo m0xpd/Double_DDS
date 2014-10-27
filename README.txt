@@ -1,7 +1,8 @@
 Double_DDS
 ==========
 
-Controlling 2 AD9850 DDS Modules to generate VFO and BFO Signals for a Superhet
+Controlling 2 AD9850 DDS Modules or an Si5351
+to generate VFO and BFO Signals for a Superhet
 
 This repository presents resources associated with the SPRAT Article
 RF Generation for Superhets
