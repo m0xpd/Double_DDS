@@ -89,8 +89,8 @@ const int modeSw3 = 5;
 // Display...
 // the display & Si5313 uses the I2C connection, 
 // which (one the UNO, NANO etc) uses 
-// A4 for the Clock and
-// A5 for the Data
+// A4 for the Data and
+// A5 for the Clock
 // (the MEGA has different I2C lines)
 int lcdWidth=16;
 int L2=17;
