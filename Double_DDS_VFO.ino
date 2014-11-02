@@ -2,7 +2,7 @@
 Double_DDS_VFO
  
 Simple RF Generation System 
-with VFOm and BFO 
+with VFO and BFO 
 implemented in 2 DDS Modules
  
 m0xpd
