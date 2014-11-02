@@ -55,7 +55,7 @@ The system implements BFO settings for lower and upper sideband
 The BFO is changed when the band changes (if required)
 */
 double BFOs[]={
-  9999550, 9997400};  // YOU WILL NEED TO EDIT THESE CONSTANTS TO SUIT YOUR IF SYSTEM
+  9999550, 9997400};  // was 9996800
  
  
 /*======================================================================
@@ -75,18 +75,18 @@ const int FQ_UD2 = 11;
 // input from rig to signal Tx/Rx status
 const int TxPin = 12;
 // Rotary Encoder...
-const int RotEncAPin = 2;
-const int RotEncBPin = 3;
+const int RotEncAPin = 2; 
+const int RotEncBPin = 3; 
 const int RotEncSwPin = A3;
 // Pushbuttons...
-const int modeSw1 = 4;
-const int modeSw3 = 5;
+const int modeSw1 = 4; 
+const int modeSw3 = 5; 
 
 // Display...
 // the display uses the I2C connection, 
 // which uses 
-// A4 for the Data and 
-// A5 for the Clock (thanks Malcolm !)
+// A4 for the Data and
+// A5 for the Clock
 //======================================
 // SOFTWARE: defining other constants...
 const int nMenus = 0x03;
@@ -94,7 +94,7 @@ byte nMenuOptions[] = {
   1, 1, 1, 5};
 char* MenuString[4][12]= {
   {
-    "RiT:  ", "      " }
+    "RiT:   ", "      " }
   ,
   {
     "VFO A ", "VFO B  " }
@@ -117,7 +117,8 @@ const byte BandPos=28;
 const long deltaf[] = {
   1, 10, 100, 1000, 10000, 100000, 0, 1000000};
 // Marketing !
-char* Banner="  m0xpd / n6qw  ";
+
+char* Banner="   m0xpd/n6qw   ";
  
 // end of Constants
 //=================================================================
@@ -132,7 +133,7 @@ int OffsetSign=0;
 char OffsetChar='=';
 char VFOChar='A';
 byte MenuOption[] = {
-  0, 0, 0, 0, 0, 0};
+  0, 0, 0, 1, 0, 0};
 byte oldVFO=MenuOption[1];
 int RiT=ModeOffsets[MenuOption[2]];
 double freq = BandCWFreqs[MenuOption[3]];
@@ -538,3 +539,4 @@ void sendbfo(double frequency) {
   pulseHigh(FQ_UD2);  
     
 }
+
