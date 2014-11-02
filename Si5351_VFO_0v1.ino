@@ -34,7 +34,7 @@ https://github.com/etherkit/Si5351Arduino
 Frequency defaults...
  
 The system is set up to use the 
-40m, 30m, 20m, 17m, 15m amateur bands 
+80m, 40m, 30m, 20m, 17m, 15m amateur bands 
  
 You can edit the band edges and the default "start" 
 frequency in any band by changing the following lines... */
