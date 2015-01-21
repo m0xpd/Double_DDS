@@ -178,7 +178,7 @@ int BannerPos=0;
 int c1=0;
 int c2=0;
 int c3=0; 
-double Turns = 0;
+int Turns = 0;   // was formerly declared as a double
 
 int Menu = 0;
  
