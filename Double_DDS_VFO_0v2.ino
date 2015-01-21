@@ -170,7 +170,7 @@ byte RiTSignPos=23;
 byte VFOPos=26;
 byte BandPos=28;
 
-double Turns; 
+int Turns;      // was previously declared as a double
 int Menu = 0;
  
 // end of Variables
